@@ -98,7 +98,7 @@ const Layout: React.FC<LayoutProps> = ({
 
       {/* Main content */}
       <div className="lg:pl-72">
-        <div className="sticky top-0 z-40 flex h-16 shrink-0 items-center gap-x-2 border-b border-gray-200 bg-white px-2 shadow-xs sm:gap-x-3 sm:px-3 lg:px-4">
+        <div className="sticky top-0 z-40 flex h-16 shrink-0 items-center gap-x-2 border-b border-gray-200 bg-white px-4 shadow-xs sm:gap-x-3 sm:px-4 lg:px-6">
           <button
             type="button"
             className="-m-2.5 p-2.5 text-gray-700 lg:hidden"
@@ -115,8 +115,8 @@ const Layout: React.FC<LayoutProps> = ({
           </div>
         </div>
 
-        <main className="py-6">
-          <div className="pl-2 pr-0 sm:pl-3 sm:pr-0 lg:pl-4 lg:pr-0">
+        <main>
+          <div className="px-4 py-6 sm:px-4 lg:px-6">
             <ErrorBoundary>
               {children}
             </ErrorBoundary>
